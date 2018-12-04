@@ -1,0 +1,100 @@
+#portfolio
+{
+	background-color:white;
+}
+
+#entete-portfolio
+{
+	text-align:center;
+}
+
+#navportfolio
+{
+	list-style-type:none;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin:30px auto;
+	padding:6px;
+	width:25%;
+	background-color:#E5E5E5;
+	border-radius:10px;
+}
+
+#navportfolio li:hover
+{
+	background-color:#3BAED7;
+	color:white;
+	font-weight:bold;
+	box-shadow:4px 4px 4px #1D8DB5;
+	cursor:pointer;
+}
+
+#navportfolio li:hover > span
+{
+	width:1px;
+	height:1px;
+	border:8px solid transparent;
+	border-top:8px solid #1D8DB5;
+	position:relative;
+	top:38px;
+	right:30px;
+}
+
+#navportfolio li:first-child
+{
+	border-radius:0 4px 4px 0;
+}
+
+#navportfolio li:last-child
+{
+	border-radius:0 4px 4px 0;
+}
+
+#images-portfolio
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin:auto;
+	padding:0;
+}
+
+#images-portfolio li
+{
+	list-style-type:none;
+	width:300px;
+	padding:15px;
+}
+
+#images-portfolio img
+{
+	margin:10px;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+}
+
+#images-portfolio .conteneur-description, #images-portfolio .conteneur-description:hover
+{
+	background-color:rgba(0,0,0,0,3);
+	padding:10px;
+	position:absolute;
+	width:100%;
+	height:40px;
+		
+}
+
+
+.fa-eye
+{
+	border:2px solid white;
+	padding:10px;
+	border-radius:20px;
+	background-color:#3BAED7;
+	float:right;
+	position:relative;
+	right:20px;
+	bottom:70px;
+
+}
