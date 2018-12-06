@@ -3,12 +3,12 @@
 	background-color:white;
 }
 
-#entete-portfolio
+#portfolio-header
 {
 	text-align:center;
 }
 
-#navportfolio
+#portfolio-nav
 {
 	list-style-type:none;
 	display:flex;
@@ -21,7 +21,7 @@
 	border-radius:10px;
 }
 
-#navportfolio li:hover
+#portfolio-nav li:hover
 {
 	background-color:#3BAED7;
 	color:white;
@@ -30,7 +30,7 @@
 	cursor:pointer;
 }
 
-#navportfolio li:hover > span
+#portfolio-nav li:hover > span
 {
 	width:1px;
 	height:1px;
@@ -41,17 +41,17 @@
 	right:30px;
 }
 
-#navportfolio li:first-child
+#portfolio-nav li:first-child
 {
 	border-radius:0 4px 4px 0;
 }
 
-#navportfolio li:last-child
+#portfolio-nav li:last-child
 {
 	border-radius:0 4px 4px 0;
 }
 
-#images-portfolio
+#portfolio-images
 {
 	display:flex;
 	flex-wrap:wrap;
@@ -60,14 +60,14 @@
 	padding:0;
 }
 
-#images-portfolio li
+#portfolio-images li
 {
 	list-style-type:none;
 	width:300px;
 	padding:15px;
 }
 
-#images-portfolio img
+#portfolio-images img
 {
 	margin:10px;
 	position:relative;
@@ -75,7 +75,7 @@
 	width:100%;
 }
 
-#images-portfolio .conteneur-description, #images-portfolio .conteneur-description:hover
+#portfolio-images .conteneur-description, #images-portfolio .conteneur-description:hover
 {
 	background-color:rgba(0,0,0,0,3);
 	padding:10px;

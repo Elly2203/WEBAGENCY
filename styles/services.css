@@ -1,15 +1,15 @@
-#Entete-services
+#services-header
 {
 	text-align:center;
 }
 
-#conteneur-services
+#services-container
 {
 	display:flex;
 	
 }
 
-#services-liste ul li
+#services-list ul li
 {
 	display:flex;
 }
@@ -23,7 +23,7 @@ i.fas
  	padding:10px;
 }
 
-#services-liste li h3
+#services-list li h3
 {
 	font-size:1.5em;
 	font-weight:bold;
