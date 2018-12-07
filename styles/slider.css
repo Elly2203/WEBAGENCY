@@ -10,19 +10,14 @@
 {
 	position:absolute;
 	width:300%;
-	padding-left:0;
-	padding-right:0;
+    padding:0;
 	transition:left 1s;
 }
 
-#slider-image li
-{
-	display:inline;
-}
 
 #slider:target #slider-image
 {
-	left:-140%;
+	 left: -100vw;
 }
 
 #banner
