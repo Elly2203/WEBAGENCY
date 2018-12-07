@@ -9,15 +9,21 @@
 #slider-image
 {
 	position:absolute;
-	width:300%;
+    top:0;
+    left:0;
+	width:200%;
+    margin:0;
     padding:0;
 	transition:left 1s;
 }
-
+ #slider li
+{
+    display:inline;
+}
 
 #slider:target #slider-image
 {
-	 left: -100vw;
+	 left: -100%;
 }
 
 #banner
