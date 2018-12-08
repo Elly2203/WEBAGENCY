@@ -23,6 +23,10 @@ i.fas
  	padding:10px;
 }
 
+.fas-container
+{
+    border-radius:50%;
+}
 #services-list li h3
 {
 	font-size:1.5em;
