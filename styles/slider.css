@@ -21,6 +21,16 @@
  
 }
 
+#right-arrow:checked~#slide-boy
+{
+  z-index:8;
+}
+
+#left-arrow:checked~#slide-girl
+{
+    z-index:9;
+}
+
 #presentation
 {
     width:40%;
