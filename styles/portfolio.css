@@ -1,6 +1,8 @@
 #portfolio
 {
 	background-color:white;
+    width:80%;
+    margin:auto;
 }
 
 #portfolio-header
@@ -8,93 +10,115 @@
 	text-align:center;
 }
 
-#portfolio-nav
+
+
+#portfolio ul
 {
 	list-style-type:none;
 	display:flex;
 	flex-direction:row;
-	justify-content:space-between;
-	margin:30px auto;
-	padding:6px;
-	width:25%;
-	background-color:#E5E5E5;
-	border-radius:10px;
+    justify-content:center; 
+    margin:40px auto;
+    width:auto;
 }
 
-#portfolio-nav li:hover
+#portfolio ul li
 {
-	background-color:#3BAED7;
-	color:white;
-	font-weight:bold;
-	box-shadow:4px 4px 4px #1D8DB5;
-	cursor:pointer;
+    padding:10px;
+    margin-left:0;
+    background-color: #E5E5E5;
 }
 
-#portfolio-nav li:hover > span
+#portfolio ul li:hover
 {
-	width:1px;
-	height:1px;
-	border:8px solid transparent;
-	border-top:8px solid #1D8DB5;
-	position:relative;
-	top:38px;
-	right:30px;
+    background-color: #3BAED7;
+    color:white;
+    font-weight:bold;
+    box-shadow: 0 3px 0 #1D8DB5;
+    cursor:pointer;
 }
 
-#portfolio-nav li:first-child
+#portfolio ul li:hover>span
 {
-	border-radius:0 4px 4px 0;
+    width:1px;
+    height:1px;
+    border:8px solid transparent;
+    border-top:8px solid #1D8DB5;
+    position:relative;
+    top:38px;
+    right:30px;
 }
 
-#portfolio-nav li:last-child
+#portfolio li first-child
 {
-	border-radius:0 4px 4px 0;
+    border-radius:4px 0 0 4px;
+}
+
+#portfolio li last-child
+{
+    border-radius:0 4px 4px 0;
 }
 
 #portfolio-images
 {
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
-	margin:auto;
-	padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+    padding:0;
 }
 
-#portfolio-images li
+.card
 {
-	list-style-type:none;
-	width:300px;
-	padding:15px;
+    position:relative;
+    width: 300px;
+    padding: 15px;
 }
 
-#portfolio-images img
+.card img
 {
-	margin:10px;
-	position:relative;
-	overflow:hidden;
-	width:100%;
+    margin:10px;
+    position:relative;
+    overflow:hidden;
+    width:100%;
 }
-
-#portfolio-images .conteneur-description, #images-portfolio .conteneur-description:hover
+ .description-container
 {
-	background-color:rgba(0,0,0,0,3);
-	padding:10px;
-	position:absolute;
-	width:100%;
-	height:40px;
-		
+    background-color:rgba(0,0,0,0.3);
+    color:white;
+    padding:10px;
+    position:absolute;
+    width:280px;
+    height:30px;
+    bottom:28px;
+    display:block;
+    
 }
 
-
-.fa-eye
+#portfolio-images .card:hover, #portfolio-images .description-container:hover
 {
-	border:2px solid white;
-	padding:10px;
-	border-radius:20px;
-	background-color:#3BAED7;
-	float:right;
-	position:relative;
-	right:20px;
-	bottom:70px;
-
+    visibility:visible;
+    cursor:pointer;
 }
+
+.fa-eye 
+{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #3BAED7;
+    float: right;
+    position: relative;
+    right: 20px;
+    bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
