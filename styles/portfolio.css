@@ -79,7 +79,6 @@
 {
     margin:10px;
     position:relative;
-    overflow:hidden;
     width:100%;
 }
  .description-container
@@ -91,6 +90,8 @@
     width:280px;
     height:30px;
     bottom:28px;
+    right:0;
+
     display:block;
     
 }
@@ -101,7 +102,7 @@
     cursor:pointer;
 }
 
-.fa-eye 
+.eyes
 {
     color: white;
     border: 1px solid white;
