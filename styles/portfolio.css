@@ -100,8 +100,8 @@
     cursor:pointer;
 }
 
-#portfolio-images img:hover + .description-container, 
-#portfolio-images .description-container:hover 
+.portfolio-images img:hover + .description-container, 
+.portfolio-images .description-container:hover 
 {
     visibility: visible;
     cursor: pointer;
