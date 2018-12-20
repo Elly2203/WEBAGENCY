@@ -59,7 +59,7 @@
     border-radius:0 4px 4px 0;
 }
 
-#portfolio-images
+.portfolio-images
 {
     display: flex;
     flex-wrap: wrap;
@@ -71,17 +71,16 @@
 .card
 {
     position:relative;
-    width: 260px;
-    padding: 20px;
+    width:260px;
+    padding:20px;
+    margin:10px;
 }
-
 .card img
 {
-    margin:10px;
-    position:relative;
     width:100%;
 }
- .description-container
+
+ .card .description-container
 {
     background-color:rgba(0,0,0,0.3);
     color:white;
@@ -89,22 +88,15 @@
     position:absolute;
     width:245px;
     height:30px;
-    bottom:35px;
-    right:9px;
+    bottom:25px;
     visibility:hidden;
 }
 
-.description-container:hover
+.card img:hover + .description-container,
+.card .description-container:hover
 {
     visibility:visible;
     cursor:pointer;
-}
-
-.portfolio-images img:hover + .description-container, 
-.portfolio-images .description-container:hover 
-{
-    visibility: visible;
-    cursor: pointer;
 }
 
 .eyes
@@ -120,8 +112,6 @@
     bottom: 80px;
 }
 
-#btn-all:checked>#portfolio-images
-#btn-creative:checked > .creative
 
 
 
