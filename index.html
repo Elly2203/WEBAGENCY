@@ -10,53 +10,53 @@
 
 	<body>
         
-        <div id="navbar">
+    <div id="navbar">
 
-            <div id="navlogo">
-                <img src="images/logo.png" alt="logo webagency" title="Le logo de l agence WabAgency" />
-            </div>
-
-            <div>
-                <ul id="navbar-menu">
-                    <li><a href="#slider">Accueil</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-
+        <div id="navlogo">
+            <img src="images/logo.png" alt="logo webagency" title="Le logo de l agence WabAgency" />
         </div>
+
+        <div>
+            <ul id="navbar-menu">
+                <li><a href="#slider">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
         
-  <div id="slider">
-      
-      
-        <div class="slides"> 
-            
-            <img id="slide-girl" src="images/slider/girl.jpg" alt="gitl with colorful hands"/>
-            <img id="slide-boy" src="images/slider/boy.jpg" alt="boy with loudspeaker"/>
-            
-        </div>
-        
-        <div id="arrows">
-            <div class="arrows-container">
-                <a href="#slide-girl"> 
-                    <i id="left-arrow" class="fa fa-angle-left chevronLeft"></i>
-                </a>  
+    <div class="slider">
+        <div class="slider-inner">
+            <input class="slider-open" type="radio" id="slider-1" name="slider" checked="checked" />
+            <div class="slider-item">
+                <img id="slide-girl" src="images/slider/girl.jpg" alt="gitl with colorful hands"/>
             </div>
+            <input class="slider-open" type="radio" id="slider-2" name="slider" />
+            <div class="slider-item">
+				<img id="slide-boy" src="images/slider/boy.jpg" alt="boy with loudspeaker"/>
 
-            <div class="arrows-container">
-                <a href="#slide-boy">
-                    <i id="right-arrow" class="fa fa-angle-right chevronRight"></i>
-                </a>
             </div>
+            <label for="slider-2" class="slider-control next control-1" title="next">
+				<i class="fa fa-angle-right chevronRight"></i>
+            </label>
+            <label for="slider-1" class="slider-control prev control-2" title="prev">
+				<i class="fa fa-angle-left chevronLeft"></i>
+            </label>
+            <label for="slider-2" class="slider-control prev control-1" title="prev">
+				<i class="fa fa-angle-left chevronLeft"></i>
+            </label>
+            <label for="slider-1" class="slider-control next control-2" title="next">
+				<i class="fa fa-angle-right chevronRight"></i>
+            </label>
         </div>
-      
+  
         <div id="presentation">
             <h2><span>WEBAGENCY</span>: L'AGENCE DE TOUS VOS PROJETS !</h2>
             <p>Vous avez un projet web? La WebAgency vous aide à le réaliser!</p><br />
             <p><a href="#services" class="button">Plus d'infos</a></p>
         </div>
-            
     </div>
 
     <div id="services">
@@ -72,24 +72,24 @@
             <p class="text-size">WebAgency, votre créateur de Web sous tous ses aspects: Design, code, référencement...</p>
         </div>
             
-			<div id="services-container">
+        <div id="services-container">
                 
-				<div id="services-image">
-					<img src="images/main-feature.png" alt="écran" />
-				</div>
+            <div id="services-image">
+				<img src="images/main-feature.png" alt="écran" />
+            </div>
 
-				<div id="all-services">	
+            <div id="all-services">	
                     
-				    <div class="service-contents">
-                        <div class="fas-container">
-                            <i class="fas fa-chart-line"></i>
-                            <div class="blue-point1">
+				<div class="service-contents">
+                    <div class="fas-container">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="blue-point1">
                                 &bull;
-				            </div>
 				        </div>
+				    </div>
 
-					   <div class="hp-container">
-                           <h3>UX design</h3>
+				    <div class="hp-container">
+                        <h3>UX design</h3>
 				           <p>Afin de laisser un souvenir inoubliable à vos visiteurs, nous procédons aux dernières innovations.</p>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
 			</div>
         </div>
 
-		<div id="portfolio">
+    <div id="portfolio">
 
 			<div id="portfolio-header">
 				<h2>NOS PROJETS</h2>
@@ -143,7 +143,7 @@
                 <li>Portfolio<span></span></li>
             </ul>
 
-            <div class="portfolio-images">
+        <div class="portfolio-images">
             			
            	    <div class="card creative">
                     <img src="images/portfolio/glasses.jpg" alt="createur de site" />
@@ -237,7 +237,7 @@
             </div>
         </div>
 
-		<div id="contact">
+    <div id="contact">
             
             <div id="google-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2156022977997!2d2.3476356159063143!3d48.87316630761985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1507309434554"></iframe>
