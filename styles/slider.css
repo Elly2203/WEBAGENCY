@@ -54,12 +54,14 @@
 {
 	padding-top: 20px;
 	padding-left: 10px;
+    color:white;
 }
 
 .chevronRight 
 {
 	padding-top: 20px;
 	padding-right: 10px;
+    color:white;
 }
 
 .slider-control.prev
@@ -84,13 +86,15 @@
 }
 
 #slider-1:checked ~ .control-1,
-#slider-2:checked ~ .control-2 {
+#slider-2:checked ~ .control-2 
+{
     display: block;
 }
 
 
-#slider-1:checked ~ .control-1 ~ .slider-bullet,
-#slider-2:checked ~ .control-2 ~ .slider-bullet {
+#slider-1:checked ~ .control-1,
+#slider-2:checked ~ .control-2
+{
     color: #428bca;
 }
 
