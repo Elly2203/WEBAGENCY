@@ -28,7 +28,7 @@
         </div>
 
         <div class="slider">
-            <div class="slider-inner">
+            <div class="slider-content">
                 
                 <input class="slider-open" type="radio" id="slider-1" name="slider" checked="checked" />
                 
@@ -145,12 +145,12 @@
                 <p class="text-size"> Voici des exemples de projets réalisés par nos Experts!</p>
             </div>
 
-            <ul>
-                <li>All Works<span></span></li>
-                <li>Creative<span></span></li>
-                <li>Corporate<span></span></li>
-                <li>Portfolio<span></span></li>
-            </ul>
+            <div id="btncontainer">
+                <button class="btn active" onclick="filterSelection('.card')">Allworks<span></span></button>
+                <button class="btn" onclick="filterSelection('.creative')">Creative<span></span></button>
+                <button class="btn" onclick="filterSelection('corporate')"> Corporate<span></span></button>
+                <button class="btn" onclick="filterSelection('portfolio')"> Portfolio<span></span></button>
+            </div>
 
             <div class="portfolio-images">
 

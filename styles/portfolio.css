@@ -10,6 +10,24 @@
 	text-align:center;
 }
 
+#portfolio #active
+{
+    background-color: #3BAED7;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 3px 0 #1D8DB5;
+    cursor: pointer;
+}
+
+#portfolio #active > span
+{
+    border: 8px solid transparent;
+    border-top: 8px solid #1D8DB5;
+    position: relative;
+    top: 42px;
+    right: 30px;
+}
+
 #portfolio ul
 {
 	list-style-type:none;
@@ -17,47 +35,37 @@
 	flex-direction:row;
     justify-content:center; 
     margin:40px auto;
+    padding:0;
     width:auto;
 }
 
 #portfolio ul li
 {
-    padding:10px;
-    margin-left:0;
-    background-color: #E5E5E5;
-    border-radius:5px;
+    background-color: #E5E5E5;    
+    padding: 10px;
+    margin-left: 0;
 }
 
-#portfolio ul li:hover
+#portfolio ul li:hover 
 {
     background-color: #3BAED7;
-    color:white;
-    font-weight:bold;
-    box-shadow: 0 3px 0 #1D8DB5;
-    cursor:pointer;
-    border-radius:5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 0 #1D8DB5;
+    cursor: pointer;
 }
 
-#portfolio ul li:hover>span
+#portfolio  li:hover > span 
 {
-    width:1px;
-    height:1px;
-    border:8px solid transparent;
-    border-top:8px solid #1D8DB5;
-    position:relative;
-    top:38px;
-    right:30px;
+    width: 1px;
+    height: 1px;
+    border: 8px solid transparent;
+    border-top: 8px solid #1D8DB5;
+    position: relative;
+    top: 40px;
+    right: 30px;
 }
 
-#portfolio li first-child
-{
-    border-radius:4px 0 0 4px;
-}
-
-#portfolio li last-child
-{
-    border-radius:0 4px 4px 0;
-}
 
 .portfolio-images
 {

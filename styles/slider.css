@@ -91,13 +91,6 @@
     display: block;
 }
 
-
-#slider-1:checked ~ .control-1,
-#slider-2:checked ~ .control-2
-{
-    color: #428bca;
-}
-
 #presentation
 {
     width:40%;
