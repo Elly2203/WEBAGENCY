@@ -6,7 +6,10 @@
 @import url("portfolio.css");
 @import url("mediasreen.css");
 
-
+html
+{
+    height:100%;
+}
 body
 {
 	font-family:'roboto', sans-serif;
