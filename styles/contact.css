@@ -1,7 +1,7 @@
 #contact
 {
- width:100%;
-    
+    width:100%;
+    height:auto;
 }
 
 #google-map iframe
@@ -17,9 +17,9 @@
     width: 300px;
     height: 450px;
     padding: 20px;
-    float: right;
-    position: relative;
-    top: -550px;
+    float:right;
+    position:relative;
+    bottom: 550px;
     right: 100px;
     z-index:5;        
     }

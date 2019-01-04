@@ -46,7 +46,7 @@
     margin-left: 0;
 }
 
-#portfolio ul li:hover 
+#portfolio ul li:hover
 {
     background-color: #3BAED7;
     color: white;
@@ -55,7 +55,7 @@
     cursor: pointer;
 }
 
-#portfolio  li:hover > span 
+#portfolio  li:hover  > span 
 {
     width: 1px;
     height: 1px;
@@ -118,6 +118,11 @@
     position: relative;
     right: 20px;
     bottom: 80px;
+}
+
+#creative:checked
+{
+    display:contents;   
 }
 
 
