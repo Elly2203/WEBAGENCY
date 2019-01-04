@@ -91,32 +91,5 @@
     display: block;
 }
 
-#presentation
-{
-    width:40%;
-    position:absolute;
-    top:20%;
-    left:12%;
-    color:white;
-    z-index:5;
-}
-
-#presentation span
-{
-	color:#3BAED7;
-}
-
-#presentation .button
-{
-    background-color:#3BAED7;
-    text-align:center;
-    padding:8px;
-    width:80px;
-    border-radius:5px;
-    box-shadow:0 3px 0 #1D8DB5;
-    text-decoration:none;
-    color:white;
-}
-
 
 
