@@ -41,26 +41,26 @@
     color: #fff;
     cursor: pointer;
     display: none;
-    font-size: 3em;
+    font-size: 2em;
     position: absolute;
     top: 40%;
     cursor: pointer;
     width: 40px;
-	height: 80px;
+	height: 70px;
     z-index: 10;
 }
 
 .chevronLeft 
 {
-	padding-top: 15px;
-	padding-left: 10px;
+	padding-top: 20px;
+	padding-left: 5px;
     color:white;
 }
 
 .chevronRight 
 {
-	padding-top: 15px;
-	padding-right: 10px;
+	padding-top: 20px;
+	padding-right: 5px;
     color:white;
 }
 
