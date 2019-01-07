@@ -5,12 +5,9 @@
 	justify-content:space-around;
 	align-items:center;
 	flex-wrap:wrap;
-	top:0;
-	right:0;
-	left:0;
-	height:100px;
 	width:100%;
 	background-color:white;
+    padding:10px;
 	z-index:100;
 }
 
@@ -19,10 +16,10 @@
 	display:flex;
 	list-style-type:none;
 	align-items:center;
-	width:300px;
+	width:400px;
 	margin:auto;
-	padding:auto;
-	justify-content:space-between;	
+	padding:3px;
+	justify-content:space-between;
 }
 
 

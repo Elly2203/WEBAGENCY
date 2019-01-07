@@ -1,9 +1,77 @@
-@media only screen and (max-width: 992px)
-{    
+@media screen and (min-width: 600px) and (max-width:910px)
+{
+    #presentation h2 
+    {
+     font-size:1.2em;
+    }
+    
+    #presentation p
+    {
+        font-size:0.8em;
+    }
+    
     #presentation
     {
-        position:static;
-        width:40%;
+        width:40%; position:absolute;
+        top:5%;
+        left:12%;
+        color:white;
+        z-index:5;
+    }
+
+    #presentation span
+    {
+        color:#3BAED7;
+    }
+
+    #presentation .button
+    {
+        background-color:#3BAED7;
+        text-align:center;
+        padding:8px;
+        width:80px;
+        border-radius:5px;
+        box-shadow:0 3px 0 #1D8DB5;
+        text-decoration:none;
         color:white;
     }
+    
+        #services-container
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width:100%;
+        margin:auto;
+        padding:30px;
+    }
+    
+}
+    
+    @media screen and (max-width: 600px)
+{
+    #presentation h2 
+    {
+     font-size:0.8em;
+    }
+    
+    #presentation p
+    {
+        font-size:0.4em;
+    }
+    
+    #services-image img 
+    {
+        display:none;
+    }
+    
+    #formular
+    {
+        margin:auto;
+        width:80%;
+        right:auto;
+        float:none;
+    }
+
 }
