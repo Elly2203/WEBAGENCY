@@ -1,14 +1,14 @@
 #navbar
 {
-
+    position:fixed;
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
 	flex-wrap:wrap;
 	width:100%;
 	background-color:white;
-    padding:10px;
-	z-index:100;
+	z-index:88;
+    padding-top:10px;
 }
 
 #navbar-menu
@@ -16,17 +16,9 @@
 	display:flex;
 	list-style-type:none;
 	align-items:center;
-	width:400px;
-	margin:auto;
-	padding:3px;
+	width:350px;
 	justify-content:space-between;
 }
-
-
-#navbar-menu li
-{
-	padding: 40px 20px;
-} 
 
 #navbar-menu li :hover
 {
@@ -43,5 +35,6 @@
  {
  	color:black;
  }
+
 
 
