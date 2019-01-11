@@ -3,11 +3,12 @@
 	background-color:whitesmoke;
     width:100%;
     margin:auto;
-    padding:30px;
+    padding:20px;
 }
 
 #portfolio-header
 {
+    padding-top:25px;
 	text-align:center;
 }
 

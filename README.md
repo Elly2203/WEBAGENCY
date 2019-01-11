@@ -17,6 +17,3 @@ Le site est découpé en 4 parties mais le tout doit être sur une seule page:
 2) Une liste des services offerts par l'agence
 3) Des exemples de projets déjà réalisés
 4) Une carte avec un formulaire de contact
-
-
-
