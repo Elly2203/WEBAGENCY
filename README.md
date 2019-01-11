@@ -9,3 +9,22 @@ Ce projet a pour but d'apprendre les langages HTML et CSS.
 
 Lien du site: https://elly2203.github.io/webagency/
 
+Dans un premier temps, tout en haut de la page, la navbar doit rester visible même lorque l'on se déplace dans la page. 
+
+Le site est découpé en 4 parties mais le tout tient sur une seule page:
+
+1) Un écran d'accueil de bienvenue
+
+L'écran d'accueil est fait à partir d'un diaporama manuel composé de 2 images avec une description de l'agence et 2 flèches gauche et droite pour les faire défiler.
+
+
+2) Une liste des services offerts par l'agence
+
+Dans cette partie, on doit lister nos services, et nos savoir-faires
+
+
+3) Des exemples de projets déjà réalisés
+4) Une carte avec un formulaire de contact
+
+
+
