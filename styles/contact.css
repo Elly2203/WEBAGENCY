@@ -10,9 +10,13 @@
     height:600px;
     position:relative;
     z-index:1;
+    border:0;
+    background-color:rgba(25, 181, 254,1)
 }
-#formular{
-    background-color:white;
+#formular
+{
+    background-color:whitesmoke;
+    opacity:0.85;
     min-width: 200px;
     width: 300px;
     height: 450px;
@@ -22,4 +26,36 @@
     bottom: 550px;
     right: 100px;
     z-index:5;        
-    }
+}
+
+#formular h1
+{
+    font-size:1.5em;
+}
+
+#formular h2
+{
+    font-family:bold;
+}
+
+#formular p
+{
+    font-size:1em;
+    color:grey;
+}
+
+#formular .input1,textarea
+{
+    width:100%;
+    margin-top:10px;
+    background-color:white;
+    opacity:1;
+}
+
+#formular #input2
+{
+    margin-bottom:10px;
+}
+
+
+
