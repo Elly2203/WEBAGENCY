@@ -25,16 +25,23 @@
 	cursor:pointer;
 	border-top:3px solid #3BAED7;
 	padding-top:15px;
+    color:black;  
 }
+
  #navbar-menu a
  {
  	text-decoration:none;
+    color:grey;
  }
 
  #navbar-menu a :hover
  {
  	color:black;
  }
+
+
+
+
 
 
 
