@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) and (max-width:910px)
 {   
-    #presentation h2 
+    #presentation h1 
     {
      font-size:1em;
     }
@@ -19,7 +19,7 @@
         top:55%;
     }   
     
-    #presentation h2 
+    #presentation h1 
     {
         font-size:0.6em;
     }
