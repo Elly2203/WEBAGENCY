@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) and (max-width:910px)
+@media screen and (min-width:736px) and (max-width:910px)
 {   
     #presentation h1 
     {
@@ -11,35 +11,54 @@
     }
 }
     
-    @media screen and (max-width: 600px)
-{
-    #presentation
+    @media screen and (max-width: 736px)
     {
-        position:absolute;
-        top:55%;
-    }   
-    
-    #presentation h1 
-    {
-        font-size:0.6em;
-    }
-    
-    #presentation p
-    {
-        font-size:0.2em;
-    }
-    
-    #services-image img 
-    {
-        display:none;
-    }
-    
-    #formular
-    {
-        margin:auto;
-        width:80%;
-        right:auto;
-        float:none;
-    }
+        html
+        {
+            width:100%;
+            align-items:center;
+        }
+        
+        body
+        {
+            width:100%;
+        }
+        
+        #navbar-menu
+        {
+            width:100%;
+        }
+        
+        #slider
+        {
+            width:100%;
+        }
+        #presentation
+        {
+            display:none;
+        }
+        
+        #services-image img 
+        {
+            display:none;
+        }
+        
+            #services-image img 
+        {
+            display:none;
+        }
+
+        #formular
+        {
+            margin:auto;
+            width:80%;
+            right:auto;
+            float:none;
+        }
+        
+        #google-map iframe
+        {
+            display:none;
+        }
 
 }

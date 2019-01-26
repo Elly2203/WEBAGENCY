@@ -35,17 +35,14 @@
 	list-style-type:none;
 	display:flex;
 	flex-direction:row;
-    justify-content:center; 
-    margin:40px auto;
-    padding:0;
-    width:auto;
+    justify-content:center;
+    margin:auto;    
 }
 
 #portfolio ul li
 {
     background-color: #E5E5E5;    
     padding: 10px;
-    margin-left: 0;
 }
 
 #portfolio ul li:hover
@@ -53,7 +50,7 @@
     background-color: #3BAED7;
     color: white;
     font-weight: bold;
-    box-shadow: 0 2px 0 #1D8DB5;
+    box-shadow: 0 1px 0 #1D8DB5;
     cursor: pointer;
 }
 
@@ -114,7 +111,7 @@
     color: white;
     border: 1px solid white;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 40px;
     background-color: #3BAED7;
     float: right;
     position: relative;
@@ -122,10 +119,7 @@
     bottom: 80px;
 }
 
-#creative:checked
-{
-    display:contents;   
-}
+
 
 
 

@@ -2,6 +2,7 @@
 {
     width:100%;
     height:auto;
+    font-family:sans-serif;
 }
 
 #google-map
@@ -72,6 +73,20 @@
 {
     margin-bottom:10px;
 }
+
+#formular p
+{
+    color:grey;
+}
+
+#input2
+{
+    color:white;
+    background-color:#3BAED7;
+    border-radius:5px
+}
+
+
 
 
 
