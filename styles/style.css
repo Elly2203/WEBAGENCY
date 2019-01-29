@@ -24,8 +24,8 @@ body
 
 h2
 {
-    font-size:1.8;
-    font-style:bold;
+    font-size:1.8em;
+    font-weight:bold;
 }
 
 .text-size
