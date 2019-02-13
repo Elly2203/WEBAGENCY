@@ -1,3 +1,7 @@
+#services p
+{
+    color:grey;
+}
 
 #services-header
 {
@@ -11,20 +15,24 @@
     display:flex;
     flex-wrap:wrap;
     width:100%;
-    align-content: center;
+    margin:auto;
+    justify-content:space-around;
 }
 
 #services-images
 {
     width:50%;
     align-content: center;
+    
 }
 
 #all-services
 {
-    text-align:left;
     width:50%;
+    text-align:left;
+    justify-content: space-around;
 }
+
 #all-services h2
 {
     font-size:1.5em;
@@ -59,7 +67,7 @@
 
 .hp-container
 {
-    padding-left:140px;
+    margin-left:140px;
 }
 
 
