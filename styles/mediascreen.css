@@ -1,5 +1,12 @@
 @media all and (max-width : 1024px) 
 {
+    html
+    {
+        width:100%;
+        margin:0 auto;
+        padding:0 auto;
+    }
+    
     #slider
     {
         width:100%;
@@ -31,6 +38,18 @@
     
 @media all and (max-width : 768px)
 {
+    html
+    {
+        width:100%;
+        margin:0 auto;
+        padding:0 auto;
+    }
+    
+    #slider
+    {
+        width:100%;
+    }
+    
     #all-services
     {
         width:100%;
@@ -47,6 +66,7 @@
     {
         margin-top:90px;
     }
+    
     #presentation
     {
         position:static;
@@ -57,4 +77,60 @@
     }
 }
 
+@media all and (max-width : 375px)
+{
+   
+    #navbar-menu
+    {
+        flex-wrap:wrap;
+        margin-bottom:0;
+    }
+    #navbar-logo
+    {
+        margin:auto;
+    }
+    
+    #slider
+    {
+        width:100%;
+        margin-left:15px;
+        padding-top:0;
+    }
+    
+    #services
+    {
+        margin-left:25px;
+    }
+    #services-image
+    {
+        display:none;
+    }
+    
+    #all-services
+    {
+        width:100%;
+    }
+    
+    #portfolio
+    {
+        margin:0;
+    }
+    
+    #portfolio ul
+    {
+        padding-left:1px;
+    }
+    
+    #google-map
+    {
+        display:none;
+    }
+    
+    #formular
+    {
+        width:100%;
+        margin-right:-35px;
+    }
+
+}
     
