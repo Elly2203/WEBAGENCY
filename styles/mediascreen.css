@@ -2,7 +2,59 @@
 {
     #slider
     {
-        width:1024px;
+        width:100%;
+    }
+    
+    #all-services
+    {
+        width:100%;
+        margin:0 auto;
+    }
+    #services-image
+    {
+        margin:0 auto;
+    }
+    
+    #contact
+    {
+        width:100%;
+    }
+    #formular
+    {
+        position:static;
+        width: 90%;
+        height: 500px;
+        padding:20px;
+        margin-left:120px;
     }
 }
+    
+@media all and (max-width : 768px)
+{
+    #all-services
+    {
+        width:100%;
+        margin:0 auto;
+    }
+    
+    .card
+    {
+        width:100%;
+        margin:auto;
+    }
+    
+    #slider
+    {
+        margin-top:90px;
+    }
+    #presentation
+    {
+        position:static;
+        width:100%;
+        color:black;
+        text-align:center;
+        font-size-adjust:auto;
+    }
+}
+
     
