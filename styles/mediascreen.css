@@ -1,25 +1,8 @@
-@media all and (max-width:1024px)
-{
-   .card
-    {
-        width:30%;
-    }
-    
-    #contact
-    {
-        height:800px;
-    }
-}
-
 @media all and (max-width : 1024px) 
 {
-    #navbar-menu li
+    #slider
     {
-        border-top:none;
-    }
-    #navbar-menu li:hover
-    {
-        border-top:3px solid rgb(92,173,211)
+        width:1024px;
     }
 }
     

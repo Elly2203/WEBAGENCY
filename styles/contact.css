@@ -7,7 +7,7 @@
 {
     width: 100%;
     height: 600px;
-    position:relative;
+position:relative;
 }
 
 #google-map iframe
@@ -59,10 +59,12 @@
 
 #formular #input2
 {
-    margin-bottom:20px;
+    border-bottom: 3px solid #3BAED7;
     color:white;
     background-color:#3BAED7;
-    border-radius:5px
+    border-radius:3px;
+    padding:5px 15px;
+    text-de
 }
 
 
