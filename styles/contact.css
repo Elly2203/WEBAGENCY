@@ -1,8 +1,6 @@
 #contact
 {
     width:100%;
-    height:auto;
-    font-family:sans-serif;
 }
 
 #google-map
@@ -34,31 +32,21 @@
 {
     background-color:whitesmoke;
     opacity:0.85;
-    min-width: 200px;
     width: 300px;
-    height: 450px;
+    height: 500px;
     padding: 20px;
     float:right;
     position:relative;
-    bottom: 550px;
+    bottom: 570px;
     right: 100px;
-    z-index:5;        
+    z-index:5;
+    text-align:left;
+    color:grey;
 }
 
 #formular h1
 {
-    font-size:1.5em;
-}
-
-#formular h2
-{
-    font-family:bold;
-}
-
-#formular p
-{
-    font-size:1em;
-    color:grey;
+    color:black;
 }
 
 #formular .input1,textarea
@@ -71,20 +59,12 @@
 
 #formular #input2
 {
-    margin-bottom:10px;
-}
-
-#formular p
-{
-    color:grey;
-}
-
-#input2
-{
+    margin-bottom:20px;
     color:white;
     background-color:#3BAED7;
     border-radius:5px
 }
+
 
 
 

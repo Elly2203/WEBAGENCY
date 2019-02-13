@@ -9,20 +9,22 @@
 html
 {
     height:100%;
-    width:100%;
+   
 }
 
 body
 {
 	font-family:'roboto', sans-serif;
 	font-style:normal;
-
-	width:100%;
 	color:black;
+    margin:0 auto;
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
 }
 
 
-h2
+h1
 {
     font-size:1.8em;
     font-weight:bold;
@@ -36,18 +38,19 @@ h2
 .blue-point
 {
 	color: #5CABD1;
-	font-size:4em;
+	font-size:3em;
+    position:relative;
+    top:-45px;
 }
 
 hr
 {
 	display:inline-block;
-	width:60px;
-	height:0;
+	width:40px;
 	margin:5px;
 	color:#FBFBFB;
 	opacity:0.3;
-	position:relative;
-	top:-15px;
+    position:relative;
+    top:-55px;
 }
 

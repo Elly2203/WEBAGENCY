@@ -1,0 +1,39 @@
+#navbar
+{
+    width:100%;
+    position:fixed;
+    top:0;
+    background-color:white;
+    justify-content:space-around;
+    align-items:center;
+    display:flex;
+    flex-wrap:wrap;
+    z-index:88;
+}
+
+#navbar-menu
+{
+    display:flex;
+    list-style-type:none;
+    align-items:center;
+}
+
+#navbar-menu li
+{
+    padding:20px 10px 20px 10px;
+}
+#navbar-menu li a
+{
+    text-decoration:none;
+    color:grey;
+}
+#navbar-menu li:hover
+{
+    border-top:3px solid rgb(92,173,211)
+}
+
+#navlogo
+{
+    margin-top:15px;
+    align-content:center;
+}

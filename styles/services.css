@@ -1,33 +1,31 @@
-#services
-{
-    padding-top:55px;
-}
+
 #services-header
 {
-	text-align:center;
+    text-align:center;
+    margin:0;
+    padding-top:80px;
 }
 
 #services-container
 {
-    display: flex;
-    justify-content:space-around;
+    display:flex;
+    flex-wrap:wrap;
     width:100%;
-    margin:auto;
-    padding:30px;
+    align-content: center;
 }
 
-#services-image
+#services-images
 {
-    padding-left:80px;
-    padding-top:50px;
+    width:50%;
+    align-content: center;
 }
 
 #all-services
 {
-    padding-right:100px;
+    text-align:left;
+    width:50%;
 }
-
-#all-services h3
+#all-services h2
 {
     font-size:1.5em;
 	font-weight:bold;
@@ -36,7 +34,6 @@
 .service-contents
 {
     display:flex;
-    flex-direction:row;
 }
 
 .fas-container
@@ -62,8 +59,9 @@
 
 .hp-container
 {
-    margin-left:140px;
+    padding-left:140px;
 }
+
 
 
 

@@ -1,61 +1,25 @@
-@media screen and (min-width:736px) and (max-width:910px)
-{   
-    #presentation h1 
+@media all and (max-width:1024px)
+{
+   .card
     {
-     font-size:1em;
+        width:30%;
     }
     
-    #presentation p
+    #contact
     {
-        font-size:0.6em;
+        height:800px;
     }
 }
-    
-    @media screen 
-        and (min-width:320px)
-        and (max-width: 736px)
-    {
-        html
-        {
-            width:100%;
-            margin:auto;
-        }
-        
-        body
-        {
-            width:100%;
-        }
-        
-        #navbar-menu
-        {
-            width:100%;
-        }
-        
-        #slider
-        {
-            width:100%;
-        }
-        #presentation
-        {
-            display:none;
-        }
-        
-        #services-image img 
-        {
-            display:none;
-        }
-        
-        #formular
-        {
-            margin:auto;
-            width:80%;
-            right:auto;
-            float:none;
-        }
-        
-        #google-map iframe
-        {
-            display:none;
-        }
 
+@media all and (max-width : 1024px) 
+{
+    #navbar-menu li
+    {
+        border-top:none;
+    }
+    #navbar-menu li:hover
+    {
+        border-top:3px solid rgb(92,173,211)
+    }
 }
+    
