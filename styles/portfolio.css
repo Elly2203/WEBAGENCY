@@ -17,14 +17,14 @@
     background-color: #3BAED7;
     color: white;
     font-weight: bold;
-    box-shadow: 0 3px 0 #1D8DB5;
+    box-shadow: 0 3px 0 #3BAED7;
     cursor: pointer;
 }
 
 #portfolio #active > span
 {
     border: 8px solid transparent;
-    border-top: 8px solid #1D8DB5;
+    border-top: 8px solid #3BAED7;
     position: relative;
     top: 42px;
     right: 30px;
@@ -50,7 +50,7 @@
     background-color: #3BAED7;
     color: white;
     font-weight: bold;
-    box-shadow: 0 1px 0 #1D8DB5;
+    box-shadow: 0 1px 0 #3BAED7;
     cursor: pointer;
 }
 
@@ -59,7 +59,7 @@
     width: 1px;
     height: 1px;
     border: 8px solid transparent;
-    border-top: 8px solid #1D8DB5;
+    border-top: 8px solid #3BAED7;
     position: relative;
     top: 40px;
     right: 30px;
