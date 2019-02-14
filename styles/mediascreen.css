@@ -91,6 +91,7 @@
         background-color:whitesmoke;
         padding-bottom:10px;
     }
+    
     .slider-content
     {
         display:none;
@@ -111,6 +112,11 @@
     #portfolio ul
     {
         margin-left:-35px;
+    }
+    
+    .separator
+    {
+        display:none;
     }
 }
     
