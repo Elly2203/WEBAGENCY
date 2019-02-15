@@ -136,6 +136,12 @@
     {
         display:none;
     }
-
+    
+    .blue-point1
+    {
+       position:absolute;
+       top:5px;
+       right:-7px;
+    }
 }
     
