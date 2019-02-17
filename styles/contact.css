@@ -34,7 +34,7 @@
     opacity:0.85;
     width: 500px;
     height: 720px;
-    padding:20px;
+    padding:25px;
     float:right;
     position:relative;
     bottom: 800px;
@@ -42,7 +42,7 @@
     z-index:5;
     text-align:left;
     color:grey;
-    border:5px;
+    border:1px solid grey;
     font-weight:bold;
 }
 
@@ -54,7 +54,7 @@
 
 #formular .input1,textarea
 {
-    width:90%;
+    width:95%;
     border:1px solid lightgrey;
     margin-bottom:30px;
     padding:12px;

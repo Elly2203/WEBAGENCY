@@ -21,7 +21,7 @@
 
 #navbar-menu li
 {
-    padding:20px 10px 20px 10px;
+    padding:25px 15px 25px 15px;
 }
 #navbar-menu li a
 {
@@ -30,7 +30,7 @@
 }
 #navbar-menu li:hover
 {
-    border-top:3px solid rgb(92,173,211);
+    border-top:1px solid rgb(92,173,211);
 }
 
 #navlogo

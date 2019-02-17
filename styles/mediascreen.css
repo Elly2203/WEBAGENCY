@@ -70,9 +70,16 @@
         padding-top:30px;
     }
     
-    #google-map iframe
+    #google-map
     {
         display:none;
+    }
+    
+    #formular
+    {
+        position:static;
+        width:80%;
+        padding:95px;
     }
     
 }
@@ -81,7 +88,7 @@
 {
     body
     {
-        font-size:0.8em;
+        font-size:0.4em;
     }
 
     #all-services
@@ -96,7 +103,7 @@
     
     #presentation
     {
-        margin-top:10px;
+        padding-top:100px;
         background-color:whitesmoke;
         padding-bottom:10px;
     }
@@ -108,27 +115,27 @@
     
     #formular
     {
-        position:static;
-        width:90%;
-        margin-top:10px;
-    }  
-    
-    #google-map
-    {
-        display:none;
+        margin:auto;
+        width:auto;
+        padding:15px;
+        
     }
+    
 }
     
 @media all and (max-width : 320px)
 {
     body
     {
-        font-size:0.6em;
+        width:100%;
+        font-size:0.3em;
+        
+            
     }
     
     #presentation 
     {
-        margin-top:20px;
+       padding-top:40px;
     }
     
 }
