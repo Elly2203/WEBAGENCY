@@ -18,10 +18,21 @@
     align-content:space-around;
 }
 
+#services-image
+{
+    text-align:right;
+    width:50%
+}
+
+#services-image img
+{
+    width:100%;
+}
+
 #all-services
 {
     text-align:left;
-    width:50%;
+    width:40%;
     flex-wrap:wrap;
 }
 
@@ -54,8 +65,8 @@
 {
    font-size:2em;
    position:absolute;
-   top:-5px;
-   right:-10px;
+   top:-15px;
+   right:-15px;
 }
 
 .hp-container

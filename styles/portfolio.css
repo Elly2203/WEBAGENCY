@@ -12,37 +12,20 @@
 	text-align:center;
 }
 
-#portfolio #active
-{
-    background-color: #3BAED7;
-    color: white;
-    font-weight: bold;
-    box-shadow: 0 3px 0 #3BAED7;
-    cursor: pointer;
-}
-
-#portfolio #active > span
-{
-    border: 8px solid transparent;
-    border-top: 8px solid #3BAED7;
-    position: relative;
-    top: 41px;
-    right: 30px;
-}
-
 #portfolio ul
 {
 	list-style-type:none;
 	display:flex;
 	flex-direction:row;
     justify-content:center;
-    margin:auto;    
+    margin:auto; 
 }
 
 #portfolio ul li
 {
-    background-color: #E5E5E5; 
+    background-color: #E5E5E5;    
     padding: 10px;
+    border-radius:3px;
 }
 
 #portfolio ul li:hover
@@ -54,26 +37,25 @@
     cursor: pointer;
 }
 
-#portfolio  li:hover  > span 
+#portfolio  li:hover > span 
 {
     width: 1px;
     height: 1px;
     border: 8px solid transparent;
     border-top: 8px solid #3BAED7;
     position: relative;
-    top: 40px;
-    right: 30px;
+    top: 46px;
+    right: 45px;
 }
-
 
 .portfolio-images
 {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    margin: auto;
+    margin:auto;
     padding:0;
-    max-width:1400px;
+    max-width:1500px;
 }
 
 .card
@@ -92,11 +74,11 @@
 {
     background-color:rgba(0,0,0,0.3);
     color:white;
-    padding:8px;
+    padding:5px;
     position:absolute;
-    width:245px;
-    height:30px;
-    bottom:25px;
+    width:249px;
+    height:45px;
+    bottom:26px;
     visibility:hidden;
 }
 
@@ -112,16 +94,20 @@
     color: white;
     border: 2px solid white;
     padding: 10px;
-    height:22px;
-    width:22px;
+    height:25px;
+    width:25px;
     border-radius:50%;
     background-color: #3BAED7;
     float: right;
     position: relative;
     right: 20px;
-    bottom: 80px;
+    bottom: 100px;
 }
 
+.description
+{
+    text-align:left;
+}
 
 
 
