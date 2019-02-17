@@ -26,6 +26,8 @@
     background-color: #E5E5E5;    
     padding: 10px;
     border-radius:3px;
+    color:grey;
+    text-align:center;
 }
 
 #portfolio ul li:hover

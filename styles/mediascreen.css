@@ -6,6 +6,7 @@
         height:100%;
         margin:0;
         padding:0;
+        font-size:0.8em;
     }
     
     #slider
@@ -31,16 +32,19 @@
         padding:0;
     }
     
-    #contact
+    #portfolio  li:hover > span
     {
-        width:100%;
+        position: relative;
+        top: 40px;
+        right: 40px;
     }
     
-    #google-map
+    .eyes
     {
-        margin-top:20px;
+        position: relative;
+        right: 15px;
+        bottom: 90px;
     }
-    
 
 }
     
@@ -54,7 +58,7 @@
     
     #slider
     {
-       margin-top
+       margin-top:80px;
     }
     
     #presentation
@@ -64,6 +68,11 @@
         color:black;
         text-align:center;
         padding-top:30px;
+    }
+    
+    #google-map iframe
+    {
+        display:none;
     }
     
 }
