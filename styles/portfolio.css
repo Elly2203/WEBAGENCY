@@ -3,12 +3,12 @@
 	background-color:whitesmoke;
     width:100%;
     margin:auto;
-    padding:20px;
+    padding-top:20px;
 }
 
 #portfolio-header
 {
-    padding:55px;
+    padding-top:80px;
 	text-align:center;
 }
 
@@ -24,7 +24,7 @@
 #portfolio ul li
 {
     background-color: #E5E5E5;    
-    padding: 10px;
+    padding: 13px;
     border-radius:3px;
     color:grey;
     text-align:center;
@@ -35,18 +35,18 @@
     background-color: #3BAED7;
     color: white;
     font-weight: bold;
-    box-shadow: 0 1px 0 #3BAED7;
+    box-shadow: 0 2px 0 #3BAED7;
     cursor: pointer;
 }
 
 #portfolio  li:hover > span 
 {
-    width: 1px;
+    width: 5px;
     height: 1px;
     border: 8px solid transparent;
-    border-top: 8px solid #3BAED7;
+    border-top: 9px solid #3BAED7;
     position: relative;
-    top: 46px;
+    top: 51px;
     right: 45px;
 }
 
@@ -56,7 +56,7 @@
     flex-wrap: wrap;
     justify-content:center;
     margin:auto;
-    padding:0;
+    padding-top:10px;;
     max-width:1500px;
 }
 

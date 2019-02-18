@@ -57,7 +57,7 @@
     width:95%;
     border:1px solid lightgrey;
     margin-bottom:30px;
-    padding:12px;
+    padding:10px;
     background-color:white;
 }
 
@@ -67,9 +67,9 @@
     5px solid #3BAED7;
     color:white;
     background-color:#3BAED7;
-    border-radius:3px;
-    padding:10px 15px;
-    font-size:25px;
+    border-radius:4px;
+    padding:8px 12px;
+    font-size:15px;
 }
 
 
