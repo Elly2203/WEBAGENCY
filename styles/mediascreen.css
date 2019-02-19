@@ -83,10 +83,116 @@
     }
 }
     
-@media all and (max-width: 414px)
-}
-        .slider-content
+@media all and (max-width:414px)
+{
+    html
+    {
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        font-size:0.6em;
+    }
+    
+         .slider-content
     {
         display:none;
     }
+    
+        #presentation
+    {
+        position:static;
+        background-color:whitesmoke;
+        font-size:0.7em;
+        width:100%;
+        color:grey;
+        text-align:center;
+        margin-top:155px;
+        padding:20px;
+        margin-bottom:0;
+    }
+    
+    #presentation span
+    {
+        font-size:1.2em;
+    }
+    
+    #all-services
+    {
+        width:100%;
+    }
+    
+    #services-image
+    {
+        display:none;
+    }
+    
+    #portfolio ul
+    {
+        margin-right:35px;
+    }
+    
+    #portfolio  li:hover > span 
+    {
+        position: relative;
+        top:40px;
+        right:30px;
+    }
+
+    .eyes
+    {
+        position: relative;
+        bottom:75px;
+    }
+    
+    #formular
+    {
+        width:60%;
+    }
+    
+        .fas-container
+    {
+        padding:10px;
+    }
+    
+    .blue-point1
+    {
+       position:absolute;
+       right:-10px;
+    }
+}
+
+@media all and (max-width:375px)
+{
+    #presentation
+    {
+        font-size:0.6em;
+    }
+    
+    #portfolio ul
+    {
+        font-size:0.4em;
+    }
+    
+    #portfolio  li:hover > span 
+    {
+        position: relative;
+        top:35px;
+        right:20px;
+    }
+}
+
+@media all and (max-width:320px)
+{
+      #portfolio ul li
+    {   
+        padding: 10px;
+    }
+    
+      #portfolio  li:hover > span 
+    {
+        position: relative;
+        top:30px;
+    }
+    
 }
