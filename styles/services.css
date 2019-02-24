@@ -12,10 +12,11 @@
 
 #services-container
 {
-    width:100%;
+    width:80%;
     display:flex;
     flex-wrap: wrap;
     align-content:space-around;
+    margin:0 auto;
 }
 
 #services-image
@@ -32,7 +33,7 @@
 #all-services
 {
     text-align:left;
-    width:40%;
+    width:50%;
     flex-wrap:wrap;
 }
 
@@ -45,35 +46,40 @@
 .service-contents
 {
     display:flex;
-    flex-wrap: wrap;
+    justify-content:space-around;
 }
 
-.fas-container
+.icons
 {
-    border:1px solid lightgrey;
-    background-color:white;
-    border-radius:50%;
-    margin:40px;
+    display:flex;
+    align-items:center;
+    
+}
+
+.fas
+{
+    font-size:1.2em;
+    text-align:center;
     padding:20px;
     color:#5CABD1;
-    font-size:2em;
-    display:flex;
-    position:absolute;
+    border:1px solid lightgrey;
+    border-radius:50%;
+    background-color:white;
 }
 
 .blue-point1
 {
-   font-size:2em;
-   position:absolute;
-   top:-15px;
-   right:-15px;
+	width:15px;
+    height:15px;
+    border-radius:50%;
+    background-color:#3BAED7;
+    margin-left:-8px;
 }
 
 .hp-container
 {
-    margin-left:150px;
+    padding-left:20px;
 }
-
 
 
 

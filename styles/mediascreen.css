@@ -11,7 +11,9 @@
 {
     html
     {
-        font-size:0.7em;
+        width:100%;
+        height:100;
+        font-size:0.8em;
     }
     
     .eyes
@@ -20,17 +22,9 @@
         bottom: 90px;
     }
     
-    #portfolio  li:hover > span 
+    .triangle
     {
-        position: relative;
-        top: 40px;
-        right: 35px;
-    }
-    
-    .blue-point1
-    {
-       position:absolute;
-       top:-10px;
+        left:30px;
     }
     
     #formular
@@ -52,9 +46,13 @@
 
 @media all and (max-width : 768px)
 {
+    html
+    {
+        font-size:0.6em;
+    }
     #presentation
     {
-        font-size:0.7em;
+        font-size
         position:absolute;
         top:40%;
         left:15%;
@@ -134,16 +132,6 @@
         display:none;
     }
     
-    #portfolio ul
-    {
-        font-size:0.5em;
-    }
-    #portfolio  li:hover > span 
-    {
-        position: relative;
-        top:35px;
-        right:20px;
-    }
 
     .eyes
     {
@@ -156,16 +144,6 @@
         width:60%;
     }
     
-        .fas-container
-    {
-        padding:10px;
-    }
-    
-    .blue-point1
-    {
-       position:absolute;
-       right:-10px;
-    }
     
     #services,
     #portfolio,
@@ -182,30 +160,10 @@
         font-size:0.6em;
     }
     
-    #portfolio ul
-    {
-        font-size:0.4em;
-    }
-    
-    #portfolio  li:hover > span 
-    {
-        position: relative;
-        top:35px;
-        right:20px;
-    }
 }
 
 @media all and (max-width:320px)
 {
-      #portfolio ul li
-    {   
-        padding: 10px;
-    }
-    
-      #portfolio  li:hover > span 
-    {
-        position: relative;
-        top:30px;
-    }
+  
     
 }

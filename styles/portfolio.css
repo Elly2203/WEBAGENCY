@@ -12,42 +12,50 @@
 	text-align:center;
 }
 
-#portfolio ul
+#portfolio-menu
 {
-	list-style-type:none;
 	display:flex;
-	flex-direction:row;
     justify-content:center;
-    margin:auto; 
+    width:auto;
+    margin:0 auto; 
 }
 
-#portfolio ul li
+.porfolio-group
 {
     background-color: #E5E5E5;    
-    padding: 13px;
+    padding: 10px;
     border-radius:3px;
     color:grey;
     text-align:center;
+    position:relative;
+    border-bottom:3px solid transparent;
 }
 
-#portfolio ul li:hover
+.porfolio-group:hover
 {
     background-color: #3BAED7;
     color: white;
     font-weight: bold;
-    box-shadow: 0 2px 0 #3BAED7;
     cursor: pointer;
+    border-bottom:3px solid #2193B9;
 }
 
-#portfolio  li:hover > span 
+.triangle
 {
-    width: 5px;
-    height: 1px;
-    border: 8px solid transparent;
-    border-top: 9px solid #3BAED7;
-    position: relative;
-    top: 51px;
-    right: 45px;
+    border-color:transparent transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    height: 0px;
+    width: 0px;
+    position:absolute;
+    bottom:-20px;
+    left:40px;
+}
+
+.porfolio-group:hover > .triangle
+{
+        border-color:#2193B9 transparent transparent transparent;
+
 }
 
 .portfolio-images
@@ -56,7 +64,7 @@
     flex-wrap: wrap;
     justify-content:center;
     margin:auto;
-    padding-top:10px;;
+    padding-top:20px;
     max-width:1500px;
 }
 
