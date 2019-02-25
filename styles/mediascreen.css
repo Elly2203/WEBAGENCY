@@ -85,13 +85,13 @@
     
       .description-container
     {
-        height:55px;
+        height:60px;
     }
 
         .eyes
     {
         position: relative;
-        bottom: 80px;
+        bottom: 95px;
     }
 }
     
@@ -139,13 +139,6 @@
         display:none;
     }
     
-
-    .eyes
-    {
-        position: relative;
-        bottom:85px;
-    }
-    
     #formular
     {
         width:90%;
@@ -164,7 +157,7 @@
 {
     #presentation
     {
-        font-size:0.6em;
+        font-size:0.8em;
     }
     
         #formular
@@ -176,6 +169,16 @@
 
 @media all and (max-width:320px)
 {
+    #portfolio-menu
+    {
+        font-size:0.7em;
+    }
+    
+    .triangle
+    {
+        left:20px;
+    }
+    
   #presentation
     {
         font-size:0.8em;
