@@ -16,6 +16,10 @@
         font-size:0.8em;
     }
     
+    .description-container
+    {
+        height:65px;
+    }
     .eyes
     {
         position: relative;
@@ -46,16 +50,14 @@
 
 @media all and (max-width : 768px)
 {
-    html
-    {
-        font-size:0.6em;
-    }
+   
+    
     #presentation
     {
-        font-size
         position:absolute;
         top:40%;
         left:15%;
+        font-size:0.8em;
     }
     
     #services-container
@@ -81,10 +83,15 @@
         margin-top:50px;
     }
     
-    .eyes
+      .description-container
+    {
+        height:55px;
+    }
+
+        .eyes
     {
         position: relative;
-        bottom:75px;
+        bottom: 80px;
     }
 }
     
@@ -136,12 +143,12 @@
     .eyes
     {
         position: relative;
-        bottom:75px;
+        bottom:85px;
     }
     
     #formular
     {
-        width:60%;
+        width:90%;
     }
     
     
@@ -160,10 +167,18 @@
         font-size:0.6em;
     }
     
+        #formular
+    {
+        width:85%;
+    }
+    
 }
 
 @media all and (max-width:320px)
 {
-  
+  #presentation
+    {
+        font-size:0.8em;
+    }
     
 }
