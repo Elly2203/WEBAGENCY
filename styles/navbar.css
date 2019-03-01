@@ -17,6 +17,7 @@
     display:flex;
     list-style-type:none;
     align-items:center;
+    padding-left:0;
 }
 
 #navbar-menu li

@@ -119,6 +119,9 @@
     position: relative;
     right: 20px;
     bottom: 110px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 
