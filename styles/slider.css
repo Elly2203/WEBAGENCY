@@ -34,7 +34,7 @@
     border-bottom: 4px solid #5cadd3;
     width:20%;
     position: relative;
-    bottom:1px;
+    bottom:4px;
     z-index: 8;
 }
 
@@ -44,7 +44,7 @@
     width:20%;
     position:relative;
     left:80%;
-    bottom:1px;
+    bottom:4px;
     z-index:8;
 }
 .slider-item img 

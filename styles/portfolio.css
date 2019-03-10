@@ -31,7 +31,8 @@
     border-bottom:3px solid transparent;
 }
 
-.porfolio-group:hover
+.porfolio-group:hover,
+.all-works
 {
     background-color: #3BAED7;
     color: white;
@@ -52,10 +53,16 @@
     left:40px;
 }
 
-.porfolio-group:hover > .triangle
+.porfolio-group:hover > .triangle,
+.all-works > .triangle
 {
-        border-color:#2193B9 transparent transparent transparent;
+    border-color:#2193B9 transparent transparent transparent;
 
+}
+
+.all-works
+{
+    
 }
 
 .portfolio-images
