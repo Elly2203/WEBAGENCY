@@ -30,8 +30,7 @@
 
 #formular
 {
-    background-color:whitesmoke;
-    opacity:0.85;
+    background-color: rgba(255,255,255, 0.7);
     width: 500px;
     height: 720px;
     padding:25px;
